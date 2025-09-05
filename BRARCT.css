@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.nav{
+    height: 50px;
+    width: 100%;
+    border: 2px solid whitesmoke;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    position: fixed;
+    box-shadow: 5px 5px 1px grey;
+    background-color: white;
+    z-index: 1000;
+   
+        
+}
+.side-container{
+    position: absolute;
+    right: 0px;
+    word-spacing: 20px;
+    letter-spacing: 2px;
+    top:10px
+    
+}
+.nav>.br{
+    position: absolute;
+    top: 10px;
+}
+.con1{
+    position: relative;
+}
+.text{
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+    word-spacing: 5px;
+    font-size: 36px;
+    font-weight: bold;
+}
+.text>.br1{
+    background-color: black;
+    color: aliceblue;
+    letter-spacing: 3px;
+    padding: 8px;
+    
+}
+.text>.ar{
+    color: aliceblue;
+
+    letter-spacing: 5px;
+}
+.project{
+    position: relative;
+    /* float: left; */
+    display: inline-block;
+    width: 350px;
+    margin-left: 20px;
+    margin-bottom: 16px;
+}
+.name{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: black;
+   color: aliceblue;
+   word-spacing: 3px;
+   letter-spacing: 1px;
+   padding: 8px;
+   height: 35px;
+  
+}
+.project img{
+    width: 100%;
+    height: auto;
+}
+.para{
+    font-size: x-large;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.Lorem{
+    margin: 20px;
+    
+}
+.project1{
+    position: relative;
+    /* float: left; */
+    display: inline-block;
+    width: 350px;
+    /* margin: 10px; */
+    margin-left: 20px;
+  
+}
+.project1 img{
+    width: 100%;
+}
+.project1>.name1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size:x-large
+}
+.project1>.role{
+    margin-bottom: 20px;
+    color:darkgray;
+    font-size:20px
+
+}
+.project1>.p1{
+    font-size: 18px;
+    word-spacing: 2px;
+    
+}
+.project1>.box{
+    margin-top: 10px;
+    background-color: gainsboro;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+}
+.cls{
+    font-size: xx-large;
+    color: aliceblue;
+    /* background-color: black; */
+
+}
+.send{
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 35px;
+    font-size: large;
+    padding: 8px;
+    letter-spacing: 2px;
+    margin: 20px;
+    
+
+}
+.img1{
+    margin: 20px;
+    margin-left: 20px;
+}
+.bottom{
+    background-color: black;
+    color: aliceblue;
+    height: 65px;
+    padding: 25px;
+    text-align: center;
+}
+.bottom a{
+    color: aliceblue;
+    
+
+}
